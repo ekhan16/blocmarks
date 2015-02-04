@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 	resources :topics do
-		resources :bookmarks
+		resources :bookmarks, only: [:edit, :show, :new]
 	end
 
   devise_for :users
