@@ -1,3 +1,4 @@
 <h1>Bookmarks</h1>
 
-<%= render 'bookmark' %>
+<%= render @bookmark %>
+<%= render partial: 'likes/like', locals: { bookmark: @bookmark } %>

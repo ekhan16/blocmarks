@@ -1,5 +1,5 @@
 class BookmarksController < ApplicationController
-	before_action :set_item, only: [:show, :edit, :update, :destroy]
+	before_action :set_bookmark, only: [:show, :edit, :update, :destroy]
 
   def show
   end
