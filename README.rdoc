@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blocmarks is a web application that allows people to bookmark pages via email.
 
-Things you may want to cover:
+The Devise gem is used for authentication.
 
-* Ruby version
+The Heroku addon Sendgrid is used for email confirmation.
 
-* System dependencies
+Mailgun is used to configure the email received containing a URL for bookmarking.
 
-* Configuration
+The Embedly gem is used to show an image of a bookmarked item.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And that's about it.  The css still needs work, but otherwise it's just about done.  Enjoy!
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
